@@ -3,6 +3,11 @@
 Réalisation d'un one-pager pour une association caritative (fictif).
 Exercice réaliser durant la formation [BeCode](https://www.becode.org)
 
+## Status
+
+* Débuté le 15 mai 2018 
+* Progression : en cours
+
 ## Instructions
 
 * [ ] Réaliser un mockup avec un logiciel de maquettage
@@ -18,3 +23,9 @@ Intructions complètes de l'exercice [ici](https://github.com/becodeorg/lovelace
 ## Technologies utilisées
 
 ## Mockup
+
+## Contributeurs
+
+[@baptistefkt](https://github.com/baptistefkt)
+
+---
