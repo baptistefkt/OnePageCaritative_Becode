@@ -5,7 +5,7 @@ Exercice réaliser durant la formation [BeCode](https://www.becode.org)
 
 ## Instructions
 
-* [ ] Réaliser un mockup avec un logiciel de maquettage
+* [x] Réaliser un mockup avec un logiciel de maquettage
 * [ ] Réaliser un one-pager pour une association caritative
 * [ ] Mettre des mots en **gras** et/ou en *italique*
 * [ ] Insérer une Citation
@@ -16,5 +16,8 @@ Intructions complètes de l'exercice [ici](https://github.com/becodeorg/lovelace
 ---
 
 ## Technologies utilisées
+
+* HTML5
+* CSS3
 
 ## Mockup
