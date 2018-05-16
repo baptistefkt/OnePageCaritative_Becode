@@ -27,6 +27,8 @@ Intructions complètes de l'exercice [ici](https://github.com/becodeorg/lovelace
 
 ## Mockup
 
+![Mockup](/Mockup3-1.png)
+
 ## Contributeurs
 
 [@baptistefkt](https://github.com/baptistefkt)
