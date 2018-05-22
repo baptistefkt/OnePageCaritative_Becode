@@ -1,49 +1,83 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
 
+}
+
+main {
+  margin: 0 30px;
 }
 
 header {
   display: flex;
   width: 100%;
   height: 100px;
-  border: 1px solid black;
   background-color: #585858;
 }
 
 header img {
-
-  border: 1px solid black;
   width: 200px;
   height: 100px;
+  margin: 0 20px;
 }
 
 header nav {
-  width: 80%;
-  margin: 25px 0 0 70px;
+  width: 900px;
+  margin: auto;
 }
 
 header nav ul {
-  width: 60%;
+  width: 100%;
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-left: 0;
 }
 
 header nav ul li {
   font-size: 28px;
   font-weight: bold;
   color: #EFEFEF;
-  border: 1px solid black;
+  font-family: 'Roboto';
 }
-main {
-  border: 1px solid black;
+
+.navTitle {
+  text-decoration: none;
+  color: #FFF1E5;
+}
+
+main p {
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.2em;
+  width: 60%;
+  margin: 20px auto;
+  padding: 15px;
+  text-align: center;
+  line-height: 1.5;
+  background-color: rgba(0,0,0,0.3);
+  color: #FFF1E5;
 }
 
 footer {
-
+  outline: 2px solid green;
+  width: 100%;
+  height: 100px;
+  background-color: #585858;
 }
 
-/*_______________________sections_____________________________*/
+footer p {
+  width: 70%;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  color: #EFEFEF;
+}
+
+/*_______________________CroixRouge_____________________________*/
 
 section {
 
@@ -51,4 +85,81 @@ section {
 
 .croixRouge {
   background-image: url(https://media.defense.gov/2008/Jul/15/2000693069/780/780/0/080712-F-0570C-085.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin-top: 30px;
+}
+
+h2 {
+  width: 300px;
+  margin: auto;
+  padding-top: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  color: #191817;
+}
+
+/*__________________________missions_____________________*/
+
+.missions {
+  height: 500px;
+  color: #191817;
+}
+
+.missions p {
+  background-color: inherit;
+  color: #191817;
+}
+
+.missions h3 {
+  font-size: 1.6em;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.missions ul {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  line-height: 2;
+  width: 85%;
+  margin: auto;
+}
+
+/*__________________________associations___________________*/
+
+.associations {
+  background-color: #EBE5D3;
+  height: 500px;
+}
+
+.associations ul {
+  width: 75%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 70px auto 0 auto;
+  padding-bottom: 70px;
+  padding-left: 0;
+}
+
+.medecin {
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+}
+
+.caritas {
+  width: 150px;
+  height: 200px;
+}
+
+.oxfam {
+  margin-top: 60px;
+  width: 260px;
+  height: 80px;
+}
+
+.cncd {
+  margin-top: 60px;
 }
