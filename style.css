@@ -153,6 +153,10 @@ margin-right: 35%;
   border-bottom: 2px solid  #191817;
 }
 
+iframe {
+  border: 0;
+}
+
 /*__________________________associations___________________*/
 
 .associations {
